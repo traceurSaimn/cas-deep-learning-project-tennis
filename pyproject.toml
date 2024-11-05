@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "computer-vision-project-tennis"
+version = "0.1.0"
+description = "Tennis hit classifier from a secuence"
+authors = ["traceurSaimn <simon.bieri92@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+transformers = "^4.46.1"
+torch = "^2.5.1"
+pillow = "^11.0.0"
+matplotlib = "^3.9.2"
+scikit-learn = "^1.5.2"
+jupyter = "^1.1.1"
+dl-cv-lectures = {git = "https://github.com/marco-willi/cas-dl-compvis-exercises-hs2024"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
