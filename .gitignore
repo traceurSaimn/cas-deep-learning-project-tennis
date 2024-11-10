@@ -5,6 +5,7 @@ add-qfingerprint-submodule.ps1
 *.tar
 *.pdf
 index/
+*.pkl
 
 !/timeseries-api/local/images.tar
 
